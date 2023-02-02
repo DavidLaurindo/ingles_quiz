@@ -16,6 +16,20 @@ const questoes: QuestaoModel[] = [
         RespostaModel.certa('Eles/Elas'),
     ]
     ),
+    new QuestaoModel(203, 'our', [
+        RespostaModel.errada('Ou'),
+        RespostaModel.errada('Aqui'),
+        RespostaModel.errada('Eu/Nos'),
+        RespostaModel.certa('Nosso/Nossa'),
+    ]
+    ),
+    new QuestaoModel(204, 'to', [
+        RespostaModel.errada('onde'),
+        RespostaModel.errada('quando'),
+        RespostaModel.errada('ir'),
+        RespostaModel.certa('Para'),
+    ]
+    ),
 ]
 
 export default questoes
